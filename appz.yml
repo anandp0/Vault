@@ -4,11 +4,11 @@ app:
     notify: apeethambaran@ecloudcontrol.com
 
 build:
-    version: 0.4
+    version: 1.19
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: vault-1.2
+    image_template: vault-1.19
 
 deploy:
     context: anandp0/DEV
